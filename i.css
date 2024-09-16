@@ -1,0 +1,78 @@
+
+  body {
+    background-color: lightcyan;
+    font-family: Arial, sans-serif;
+  }
+  
+  #auto-play-btn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background-color: #706668cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+
+  h1 {
+    color: hsla(0, 23%, 3%, 0.686);
+    text-align: center;
+    padding: 20px 0;
+    font-family:'微软雅黑';
+  }
+  
+  .full-img {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+  }
+  
+  .displayed-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 690px;
+    height: 680px;
+    background-color: rgba(0, 0, 0, 0);
+
+  }
+  
+  button {
+    border: 0;
+    background: rgba(150,150,150,0.6);
+    text-shadow: 1px 1px 1px white;
+    border: 1px solid #999;
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    left: 2px;
+  } 
+  .thumb-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .thumb-bar img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.5s ease;
+  }
+  
+  .thumb-bar img:hover {
+    opacity: 1;
+  }
+  
